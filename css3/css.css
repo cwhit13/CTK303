@@ -1,0 +1,189 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  font-family: 'Patua One', cursive;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  background-color: #04C1FA;
+  font-size: 24px;
+  width: 100px;
+  color: white;
+  width: 200px;
+  height: 60px;
+  padding: 20px;
+padding-left: 20px;
+border-radius: 70px;
+margin: 20px;
+  transition: background-color 1.0s, width 2.0s, color 2.5s;
+}
+
+nav a:hover {
+  background-color: #B7EDFD;
+  width: 100px;
+  color: black;
+}
+
+
+#animatediv {
+  color: white;
+  font-size: 36px;
+  font-family: 'Patua One', cursive;
+  text-align: center;
+  width: 550px;
+  height: 80px;
+  padding-top: 20px;
+padding-left: 5px;
+border-radius: 70px;
+margin-bottom: 70px;
+  background-color:	#04C1FA;
+  animation: back-ani 10s linear;
+}
+
+@keyframes back-ani {
+  0%   {background-color:	#04C1FA;}
+  50%  {background-color:#B7EDFD;}
+  100% {background-color:#04C1FA;}
+}
+
+.circle1 {
+  position: relative;
+  top: 0;
+left: 5px;
+  width: 300px;
+  height: 300px;
+  border-radius:300px;
+  opacity: .5;
+  background-color: #FA3E05;
+  animation: circle1-ani 15s linear;
+}
+
+@keyframes circle1-ani {
+  0%   { opacity: .0; left:100; }
+  50%  { opacity: 1; }
+  100% { opacity: .0; left: 1800px; }
+}
+
+#slide1 {
+  width: 1800px;
+  padding: 50px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+#slide1 img {
+filter: opacity(50px);
+margin-left: 400px;
+filter:grayscale(100%);
+}
+
+#slide1:hover img {
+  filter:grayscale(0%);
+
+}
+
+#slide2 {
+  width: 1200px;
+margin-left: 400px;
+padding: 50px;
+overflow: hidden;
+object-fit: cover;
+
+}
+
+#slide2 img {
+filter:grayscale(100%);
+}
+
+#slide2:hover img {
+filter:grayscale(0%);
+}
+
+#slide3 {
+  width: 1200px;
+  margin-left: 400px;
+  padding: 50px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+#slide3 img {
+  filter:grayscale(100%);
+
+}
+
+#slide3:hover img {
+  filter:grayscale(0%);
+
+
+}
+
+#slide4 {
+  width: 1200px;
+  margin-left: 400px;
+  padding: 50px;
+  overflow: hidden;
+  object-fit: cover;
+/*https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css */
+}
+
+#slide4 img {
+  filter:grayscale(100%);
+
+}
+
+#slide4:hover img {
+  filter:grayscale(0%);
+
+}
+
+#slide5 {
+  width: 1200px;
+  margin-left: 400px;
+  padding: 50px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+#slide5 img {
+  filter:grayscale(100%);
+
+}
+
+#slide5:hover img {
+  filter:grayscale(0%);
+
+}
+
+
+p {
+  font-size: 12px;
+  color: black;
+}
+
+body {
+  background-color:#FFE66D;
+}
+
+h1 {
+  margin-top: 50px;
+font-family: 'Open Sans', sans-serif;
+margin-left: 450px;
+
+
+}
+
+h2 {
+  margin-bottom: 50px;
+font-family: 'Open Sans', sans-serif;
+margin-left: 450px;
+font-size: 20px;
+
+}
+#special {
+  margin-left: 450px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
