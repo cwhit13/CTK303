@@ -1,0 +1,89 @@
+h1 {
+  color: white;
+  font-family: 'Stalinist One', cursive;
+  margin-left: 400px;
+}
+h2 {
+color: white;
+  font-family: 'Stalinist One', cursive;
+  margin-left: 400px;
+}
+h3 {
+color: white;
+  font-family: 'Stalinist One', cursive;
+  margin-left: 400px;
+}
+body {
+  background: black;
+}
+svg {
+  display: block;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+#eyes:hover {
+  transform:rotate(180deg);
+  */this doesn't work, my computer just glitches out */
+}
+#sun {
+animation: sfade 6.0s;
+}
+@keyframes sfade {
+  0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 155px);}
+}
+
+#leftmountain {
+  animation: lfade 1.0s;
+}
+
+@keyframes lfade {
+  0%   { transform: perspective(10);
+  100% { transform: perspective(20);}
+}
+
+#monsterbody {
+  animation: mfade 6.0s;
+  }
+  @keyframes mfade {
+    0%   { transform: translate(0, -200px);}
+    100% { transform: translate(0, 155px);}
+    I could not get this to work either, is it because I used the paint brush tool?
+  }
+
+  #word {
+    animation: wfade 6.0s;
+    }
+    @keyframes wfade {
+      0%   { transform: translate(0, 200px);}
+      100% { transform: translate(0, 0px);}
+      This does not work, I could not animate a whole word or phrase
+    }
+#cactus {
+transform: rotate(180deg);
+  }
+
+  #cactus2 {
+    animation: cfade 6.0s;
+    }
+    @keyframes cfade {
+      0%   { transform: tra(0deg);}
+      100% { transform: rotate(30deg);}
+    }
+    #cactus3 {
+      animation: cfade 6.0s;
+      }
+      @keyframes cfade {
+        0%   { transform: rotate(0deg);}
+        100% { transform: rotate(30deg);}
+      }
+
+      #hand {
+        animation: wfade 6.0s;
+        }
+        @keyframes wfade {
+          0%   { transform: translate(0, 200px);}
+          100% { transform: translate(0, 155px);}
+
+        }
